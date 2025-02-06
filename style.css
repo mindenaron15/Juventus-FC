@@ -10,7 +10,18 @@ body{
     height: 100px;
     background-repeat: no-repeat;
     color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu img{
+    width: 4%;
     
+}
+
+h1{
+    color: white;
 }
 
 .logo{
