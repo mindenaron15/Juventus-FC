@@ -1,6 +1,7 @@
 body{
     color: black;
     background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .menu{
@@ -31,6 +32,12 @@ body{
     transform: scale(1.1);
     transition: ease-in-out 0.2s;
 }
+
+#vissza a{
+    color: white;
+    text-decoration: none;
+}
+
 #csapat,
  #trofeak,
  #meccsek{
@@ -60,6 +67,11 @@ h1{
     text-align: center;
 }
 
+.logo img{
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
 .bev-szoveg{
     font-size: 1.2em;
     text-align: center;
@@ -67,20 +79,53 @@ h1{
 
 .link{
     text-align: center;
+    font-size: 1.2em;
 }
 
-link:hover{
+.link:hover{
     color: black;
 }
 
-link:visited{
+.link:visited{
     color: black;
 }
 
-link::after{
+.link::after{
     color: black;
 }
 
-link::before{
+.link::before{
     color: black;
+}
+
+.bl{
+    margin-top: 200px;
+}
+
+.bl img{
+    height: 200px;
+}
+
+.el{
+    margin-top: 200px;
+}
+
+.el img{
+    height: 200px;
+}
+
+.scudetto{
+
+}
+
+.scudetto img{
+    height: 200px;
+}
+
+.super{
+
+}
+
+.super img{
+    height: 200px;
 }
