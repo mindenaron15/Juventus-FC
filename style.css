@@ -1,7 +1,6 @@
 body{
     color: black;
     background-color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 .menu{
@@ -13,6 +12,39 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 50px;
+    background-color: gold;
+    background-size: 4%;
+    height: 70px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+#csapat:hover,
+ #trofeak:hover,
+ #meccsek:hover {
+    background-color: white;
+    transform: scale(1.1);
+    transition: ease-in-out 0.2s;
+}
+#csapat,
+ #trofeak,
+ #meccsek{
+  border: 3px solid gold;  
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+ }
+
+.buttons a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .menu img{
@@ -29,6 +61,7 @@ h1{
 }
 
 .bev-szoveg{
+    font-size: 1.2em;
     text-align: center;
 }
 
