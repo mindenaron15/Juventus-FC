@@ -1,0 +1,29 @@
+body{
+    color: black;
+    background-color: white;
+    padding: 200px;
+}
+
+.logo{
+    margin: auto;
+}
+
+.bev-szoveg{
+    text-align: center;
+}
+
+.link{
+    text-align: center;
+}
+
+link:hover{
+    color: black;
+}
+
+link:visited{
+    color: black;
+}
+
+link::after{
+    color: black;
+}
