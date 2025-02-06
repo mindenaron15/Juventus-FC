@@ -99,7 +99,8 @@ h1{
 }
 
 .bl{
-    margin-top: 200px;
+    margin-top: 400px;
+    text-align: center;
 }
 
 .bl img{
@@ -107,7 +108,7 @@ h1{
 }
 
 .el{
-    margin-top: 200px;
+    text-align: center;
 }
 
 .el img{
@@ -115,7 +116,7 @@ h1{
 }
 
 .scudetto{
-
+    text-align: center;
 }
 
 .scudetto img{
@@ -123,9 +124,16 @@ h1{
 }
 
 .super{
-
+    text-align: center;
 }
 
 .super img{
     height: 200px;
+}
+
+.felsorolas {
+    margin-top: 600px;
+    font-size: 2em;
+    /* list-style-image: url(https://i0.wp.com/pearlyarts.com/wp-content/uploads/2022/08/Trophy-Clipart-with-outline-WM.png?fit=1000%2C1001&ssl=1); */
+    /* list-style: url(https://i0.wp.com/pearlyarts.com/wp-content/uploads/2022/08/Trophy-Clipart-with-outline-WM.png?fit=1000%2C1001&ssl=1); */
 }
