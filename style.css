@@ -74,7 +74,7 @@ h1{
 
 .logo img:hover{
     /* transform: scale(1.2em); */
-    transition: ease-in-out;
+    /*  */
 }
 
 .bev-szoveg{
@@ -84,7 +84,7 @@ h1{
 
 .link{
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .link:hover{
@@ -144,17 +144,42 @@ h1{
 }
 
 .tablazat{
-    
+    margin-top: 70px;
+    display: flex;
+    color: white;
+    background-color: black;
+}
 
+.tablazat a:hover, .tablazat a:before, .tablazat a:after, .tablazat a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.tablazat tr, td{
+    color: white;
+    text-align: center;
 }
 
 .stadion img{
     width: 500px;
-    margin-left: 500px;
+    margin-left: 725px;
 }
 
 .adatok{
-    margin-left: 320px;
+    margin-left: 200px;
     height: 50px;
 }
 
+.itt{
+    color: gold;
+}
+
+.itt {
+    color: gold;
+    
+}
+
+.itt:hover, .itt:visited, .itt:before , .itt:active {
+    color: gold;
+    
+}
