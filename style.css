@@ -72,6 +72,10 @@ h1{
     border-radius: 30px;
 }
 
+.logo img:hover{
+    transform: scale(1.2em);
+}
+
 .bev-szoveg{
     font-size: 1.2em;
     text-align: center;
@@ -136,4 +140,9 @@ h1{
     font-size: 2em;
     /* list-style-image: url(https://i0.wp.com/pearlyarts.com/wp-content/uploads/2022/08/Trophy-Clipart-with-outline-WM.png?fit=1000%2C1001&ssl=1); */
     /* list-style: url(https://i0.wp.com/pearlyarts.com/wp-content/uploads/2022/08/Trophy-Clipart-with-outline-WM.png?fit=1000%2C1001&ssl=1); */
+}
+
+.tablazat{
+    
+
 }
