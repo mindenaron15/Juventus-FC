@@ -1,10 +1,10 @@
-body{
+body {
     color: black;
     background-color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.menu{
+.menu {
     background-color: black;
     background-size: 4%;
     height: 100px;
@@ -15,7 +15,7 @@ body{
     align-items: center;
 }
 
-.buttons{
+.buttons {
     display: flex;
     gap: 50px;
     background-color: gold;
@@ -26,108 +26,107 @@ body{
 }
 
 #csapat:hover,
- #trofeak:hover,
- #meccsek:hover {
+#trofeak:hover,
+#meccsek:hover {
     background-color: white;
     transform: scale(1.1);
     transition: ease-in-out 0.2s;
 }
 
-#vissza a{
+#vissza a {
     color: white;
     text-decoration: none;
 }
 
 #csapat,
- #trofeak,
- #meccsek{
-  border: 3px solid gold;  
-  border-radius: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
- }
+#trofeak,
+#meccsek {
+    border: 3px solid gold;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
-.buttons a{
+.buttons a {
     text-decoration: none;
     color: black;
     font-size: 1.5em;
     font-weight: bold;
 }
 
-.menu img{
+.menu img {
     width: 4%;
-    
 }
 
-h1{
+h1 {
     color: white;
 }
 
-.logo{
+.logo {
     text-align: center;
 }
 
-.logo img{
+.logo img {
     margin-top: 20px;
     border-radius: 30px;
 }
 
-.bev-szoveg{
+.bev-szoveg {
     font-size: 1.2em;
     text-align: center;
 }
 
-.link{
+.link {
     text-align: center;
     font-size: 1.25em;
 }
 
-.link:hover{
+.link:hover {
     color: black;
 }
 
-.link:visited{
+.link:visited {
     color: black;
 }
 
-.link::after{
+.link::after {
     color: black;
 }
 
-.link::before{
+.link::before {
     color: black;
 }
 
-.bl{
+.bl {
     margin-top: 400px;
     text-align: center;
 }
 
-.bl img{
+.bl img {
     height: 200px;
 }
 
-.el{
+.el {
     text-align: center;
 }
 
-.el img{
+.el img {
     height: 200px;
 }
 
-.scudetto{
+.scudetto {
     text-align: center;
 }
 
-.scudetto img{
+.scudetto img {
     height: 200px;
 }
 
-.super{
+.super {
     text-align: center;
 }
 
-.super img{
+.super img {
     height: 200px;
 }
 
@@ -138,34 +137,38 @@ h1{
     /* list-style: url(https://i0.wp.com/pearlyarts.com/wp-content/uploads/2022/08/Trophy-Clipart-with-outline-WM.png?fit=1000%2C1001&ssl=1); */
 }
 
-.tablazat{
+.tablazat {
     margin-top: 70px;
     display: flex;
     color: white;
     background-color: black;
 }
 
-.tablazat a:hover, .tablazat a:before, .tablazat a:after, .tablazat a:visited {
+.tablazat a:hover,
+.tablazat a:before,
+.tablazat a:after,
+.tablazat a:visited {
     color: white;
     text-decoration: none;
 }
 
-.tablazat a{
+.tablazat a {
     color: white;
     text-decoration: none;
 }
 
-.tablazat tr, td{
+.tablazat tr,
+td {
     color: white;
     text-align: center;
 }
 
-.stadion img{
+.stadion img {
     width: 500px;
     margin-left: 250px;
 }
 
-.adatok{
+.adatok {
     margin-left: 200px;
     height: 50px;
 }
@@ -174,7 +177,7 @@ h1{
     color: gold;    
 }
 
-#map{
+#map {
     color: black;
     text-decoration: none;
 }
